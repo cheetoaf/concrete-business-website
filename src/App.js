@@ -1,4 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import logo from './assets/logo.svg';
+import Navbar from './components/Navbar.js';
+import About from './pages/About.js';
+import Contact from './pages/Contact.js';
+import Home from './pages/Home.js';
+import Services from './pages/Services.js';
+
 import './App.css';
 
 function App() {
